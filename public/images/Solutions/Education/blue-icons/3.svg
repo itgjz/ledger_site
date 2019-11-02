@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.5557 0H200V169.444C178.77 188.446 150.734 200 120 200C53.7258 200 0 146.274 0 80C0 49.2658 11.5541 21.2303 30.5557 0Z" fill="#00DCE6" fill-opacity="0.1"/>
+<path d="M147.519 77.1843H90.124V60.1112C90.124 44.2576 102.994 31.3657 118.821 31.3657C134.648 31.3657 147.519 44.2576 147.519 60.1112V77.1843Z" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M90.1242 77.1841L82.6455 101.825H120.735" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M146.649 77.1841L154.997 101.999H128.039C128.039 101.999 126.996 110.013 118.821 110.013C110.473 110.013 109.604 102.522 109.604 102.522" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M110 31.283V31.0377C110 24.9057 114 20 119 20C124 20 128 24.9057 128 31.0377V33" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M68.2101 115.701C62.6446 110.475 58.9922 102.809 58.9922 94.447C58.9922 86.4331 62.2967 79.1161 67.5144 73.8896" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M73.2534 109.429C69.4271 105.597 66.9922 100.37 66.9922 94.447C66.9922 88.6979 69.2532 83.4714 73.0795 79.6387" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M164.737 80.1602C168.564 83.9929 170.999 89.2194 170.999 95.1427C170.999 100.892 168.738 106.118 164.911 109.951" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M169.955 73.8896C175.521 79.1161 179.173 86.7816 179.173 95.1439C179.173 103.158 175.868 110.475 170.651 115.701" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M131 118C127.903 121 123.257 123 118.389 123C113.522 123 109.319 121.2 106 118.4" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+<path d="M137 123C132.24 127.889 125.749 131 118.392 131C111.251 131 104.76 128.111 100 123.222" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+<path d="M145 128C138.5 134.642 128.967 139 118.567 139C108.6 139 99.5 135.057 93 128.83" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+</svg>

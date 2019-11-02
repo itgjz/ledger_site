@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.5557 0H200V169.444C178.77 188.446 150.734 200 120 200C53.7258 200 0 146.274 0 80C0 49.2658 11.5541 21.2303 30.5557 0Z" fill="#00DCE6" fill-opacity="0.1"/>
+<path d="M118 62.6L120.667 65L126 59" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M118 53.6L120.667 56L126 50" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M118 43.6L120.667 46L126 40" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M83 43H108" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M83 53H108" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M83 62H108" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M124.135 97H75V30H128" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M123 104.5V140H180V73H156.25" stroke="#00DCE6" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M164 106.6L166.667 109L172 103" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M164 97.6L166.667 100L172 94" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M164 87.6L166.667 90L172 84" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M131 87H156" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M131 97H156" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M131 106H156" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M143.608 44.2127L144.15 44.4919V45.1018V78H145.839L151.566 69.5324L149.689 66.1165L149.309 65.4257L149.892 64.8952L153.714 61.4178L150.583 57.9992L150.046 57.4129L150.496 56.7576L153.85 51.8749V45.1018V44.4919L154.392 44.2127C158.307 42.1975 161 38.0533 161 33.2584C161 26.4696 155.609 21 149 21C142.391 21 137 26.4696 137 33.2584C137 38.0533 139.693 42.1975 143.608 44.2127Z" stroke="#00DCE6" stroke-width="2"/>
+<path d="M155 28H143V31H155V28Z" stroke="#00DCE6" stroke-width="2"/>
+</svg>

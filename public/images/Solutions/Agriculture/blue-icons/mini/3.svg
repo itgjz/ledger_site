@@ -1,0 +1,20 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M55.0694 0H0V55.0694C6.89983 61.2449 16.0114 65 26 65C47.5391 65 65 47.5391 65 26C65 16.0114 61.2449 6.89983 55.0694 0Z" fill="#00DCE6" fill-opacity="0.1"/>
+<path d="M19.4018 14.0591L23.6489 9.79328L21.5136 7.71882L22.1529 7.07795L32.0874 6.76949L32.1166 16.7021L31.4481 17.3935L29.3128 15.319L16.9117 27.5666" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M18.7702 14.469L6.00516 26.8885" stroke="#00DCE6" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+<path d="M35.0013 40.6114L45.5948 30.1467L43.4401 28.0534L44.0852 27.4067L54.1102 27.0954L54.1396 37.1185L53.4651 37.8161L51.3103 35.7228L34.0343 52.9997" stroke="#00DCE6" stroke-miterlimit="10"/>
+<circle cx="24.8655" cy="35.5437" r="11.3249" stroke="#00DCE6"/>
+<circle cx="24.4147" cy="35.5537" r="8.69721" stroke="#00DCE6"/>
+<path d="M21.4673 29.5713V38.8169C21.4673 39.3978 21.7093 39.9302 22.145 40.3175L24.3717 42.1569" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M27.276 29.5713V38.8169C27.276 39.3978 27.0339 39.9302 26.5983 40.3175L24.3716 42.1569" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M27.276 37.3154L24.3716 39.7357" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M27.276 32.4746L24.3716 34.8949" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M21.4673 37.3154L24.3717 39.7357" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M27.276 34.8955L24.3716 37.3158" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M21.4673 34.8955L24.3717 37.3158" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M21.4673 32.4746L24.3717 34.8949" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M24.3716 44.3344V34.4111" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M23.4033 33.9275V30.055L24.3714 29.0869L25.3396 30.055V33.9275" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M25.3396 30.0546V26.3555" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M23.4033 30.0546V26.3555" stroke="#00DCE6" stroke-miterlimit="10"/>
+</svg>

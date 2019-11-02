@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.5557 0H200V169.444C178.77 188.446 150.734 200 120 200C53.7258 200 0 146.274 0 80C0 49.2658 11.5541 21.2303 30.5557 0Z" fill="#00DCE6" fill-opacity="0.1"/>
+<path d="M116 87.6L118.667 90L124 84" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M116 78.6L118.667 81L124 75" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M93 79H110" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M93 87H110" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M116 95.6L118.667 98L124 92" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M93 95H110" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M131 98.5V125H87V63H126" stroke="#00DCE6" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M130.341 65.7914L130.875 66.0726V66.6763V99H132.434L137.929 90.6929L136.124 87.3349L135.759 86.655L136.324 86.1292L139.994 82.7154L136.986 79.3584L136.467 78.7791L136.901 78.1335L140.125 73.3351V66.6763V66.0726L140.659 65.7914C144.408 63.8185 147 59.7524 147 55.0337C147 48.3479 141.812 43 135.5 43C129.188 43 124 48.3479 124 55.0337C124 59.7524 126.592 63.8185 130.341 65.7914Z" stroke="#00DCE6" stroke-width="2"/>
+<path d="M86.6923 98C71.3983 98 60 85.6736 60 70.4706C60 55.2676 72.3983 42.9412 87.6923 42.9412C92.8132 29.5304 105.869 20 121.154 20C139.741 20 155.017 34.094 156.758 52.1176C156.813 52.1176 156.868 52.1176 156.923 52.1176C169.668 52.1176 180 62.3896 180 75.0588C180 87.728 169.668 98 156.923 98H131.5" stroke="#00DCE6" stroke-width="4"/>
+<path d="M130 53H140" stroke="#00DCE6" stroke-width="2"/>
+<path d="M80 101.5V138.5" stroke="#00DCE6" stroke-width="2" stroke-dasharray="2 2"/>
+<path d="M138 101.5V138.5" stroke="#00DCE6" stroke-width="2" stroke-dasharray="2 2"/>
+<path d="M76 135.5L80 139.5L84 135.5" stroke="#00DCE6" stroke-width="2"/>
+<path d="M134 135.5L138 139.5L142 135.5" stroke="#00DCE6" stroke-width="2"/>
+</svg>

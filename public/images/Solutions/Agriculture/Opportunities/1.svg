@@ -1,0 +1,31 @@
+<svg width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.8612 0H130V110.139C116.2 122.49 97.9772 130 78 130C34.9218 130 0 95.0782 0 52C0 32.0228 7.51019 13.7997 19.8612 0Z" fill="#00DCE6" fill-opacity="0.1"/>
+<path d="M40 79.8663V70.8803L48.8928 66L52.5 71.2062L56.1072 66L65 70.4123V80" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M59 53.7C59 57.35 56.8643 64 52.5 64C47.8571 64 46 56.95 46 53.7C46 48.85 47.7643 46 52.5 46C57.4214 46 59 48.9 59 53.7Z" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M46 52.4827C46.7143 52.3929 49 51 49 51C49 51 50.1905 52.7074 52.8095 52.9321C55.1905 53.1567 59 52.7523 59 52.7523" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M49 62V66" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M56 62V66" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M74 25V44.1C74 45.3 74.5 46.4 75.4 47.2L80 51" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M86 25V44.1C86 45.3 85.5 46.4 84.6 47.2L80 51" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M86 41L80 46" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M86 31L80 36" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M74 41L80 46" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M86 36L80 41" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M74 36L80 41" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M74 31L80 36" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M80 55.5V35" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M78 34V26L80 24L82 26V34" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M82 26V16" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M78 26V16" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M80 56C80 57.1667 80 60.8 80 66C80 72.5 76.3333 75 69 75" stroke="#00DCE6"/>
+<path d="M80 56C80 57.1667 80 60.8 80 66C80 72.5 83.6667 75 91 75" stroke="#00DCE6"/>
+<circle cx="80" cy="34" r="23.5" stroke="#00DCE6"/>
+<circle cx="80" cy="34" r="20.5" stroke="#00DCE6"/>
+<path d="M72.5 72L69 75L72.5 78" stroke="#00DCE6"/>
+<path d="M87.5 78L91 75L87.5 72" stroke="#00DCE6"/>
+<path d="M95 79.8663V70.8803L103.893 66L107.5 71.2062L111.107 66L120 70.4123V80" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M114 53.7C114 57.35 111.864 64 107.5 64C102.857 64 101 56.95 101 53.7C101 48.85 102.764 46 107.5 46C112.421 46 114 48.9 114 53.7Z" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M101 52.4827C101.714 52.3929 104 51 104 51C104 51 105.19 52.7074 107.81 52.9321C110.19 53.1567 114 52.7523 114 52.7523" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M104 62V66" stroke="#00DCE6" stroke-miterlimit="10"/>
+<path d="M111 62V66" stroke="#00DCE6" stroke-miterlimit="10"/>
+</svg>
