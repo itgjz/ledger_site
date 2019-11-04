@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
+
+// data
 var config = require('./config')
+var smartContract = require('./data/services/smart-contract')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -29,7 +32,7 @@ router.get('/services/research', function (req, res, next) {
 })
 
 router.get('/services/smart-contract', function (req, res, next) {
-  res.render('services/smart-contract', config)
+  res.render('services/smart-contract', { ...config, ...smartContract })
 })
 
 
@@ -82,7 +85,7 @@ router.get('/solutions/retail', function (req, res, next) {
   res.render('solutions/retail', config)
 })
 
-router.post('/contact', function(req, res) {
+router.post('/contact', function (req, res) {
   console.log(req)
   res.send("post successfully")
 })
