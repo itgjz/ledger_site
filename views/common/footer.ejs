@@ -52,59 +52,56 @@
     <div class="contact-block">
         <h2>联系OpenLedger</h2>
         <p>让我们与您有关我们的区块链产品，解决方案和服务的问题保持一致。</p>
-        <form id="about_form" action="/" method="post" class="needs-validation" novalidate>
-            <input type="hidden" name="link" value="/" />
-            <input type="hidden" name="shortlink" value="home" />
-            <input type="hidden" name="title" value="Home" />
+        <form id="about_form" action="/" method="post" enctype="application/x-www-form-urlencoded" class="needs-validation" novalidate>
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-row">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control required" name="name" placeholder="Name" required>
-                            <span class="invalid-feedback error">Please, fill in this required field</span>
+                            <input type="text" class="form-control required" name="name" placeholder="姓名" required>
+                            <span class="invalid-feedback error">请输入您的姓名</span>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-sm-12">
-                            <input type="email" class="form-control required" name="email" placeholder="Email" required>
-                            <span class="error invalid-feedback">Please, fill in this required field</span>
+                            <input type="email" class="form-control required" name="email" placeholder="邮箱" required>
+                            <span class="error invalid-feedback">请输入正确的邮箱</span>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" name="company" placeholder="Company">
-                            <span class="error invalid-feedback">Please, fill in this required field</span>
+                            <input type="text" class="form-control" name="company" placeholder="公司">
+                            <span class="error invalid-feedback">请输入您所在的公司</span>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" name="phone" placeholder="Phone">
-                            <span class="error invalid-feedback">Please, fill in this required field</span>
+                            <input type="text" class="form-control required" name="phone" placeholder="电话号码" required>
+                            <span class="error invalid-feedback">请输入您的电话号码</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-row">
                         <div class="col-sm-12">
-                            <textarea class="form-control required" name="message" placeholder="Message"
+                            <textarea class="form-control required" name="message" placeholder="您的问题"
                                 required></textarea>
-                            <span class="error invalid-feedback">Please, fill in this required field</span>
+                            <span class="error invalid-feedback">请输入您的问题</span>
                         </div>
                     </div>
                 </div>
-                <div class="custom-control custom-checkbox col-md-12">
+                <!-- <div class="custom-control custom-checkbox col-md-12">
                     <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
                     <label class="custom-control-label" for="customControlValidation1">I agree with OpenLedger
                         Privacy Policy and give my permission to process my personal data for the purposes specified
                         in it</label>
-                </div>
-                <!-- <div class="col-md-12">
-                    <div class="error-captcha"></div>
+                </div> -->
+                <div class="col-md-12">
+                    <!-- <div class="error-captcha"></div>
                     <script src='https://www.google.com/recaptcha/api.js'></script>
                     <div class="g-recaptcha" data-sitekey="6LeqgW4UAAAAAE4J3aI79inh76hoYTHYdQxuzC9w" data-size="100%">
-                    </div>
-                    <button id="subm" type="submit">Send</button>
-                </div> -->
+                    </div> -->
+                    <button id="subm" type="submit">发送</button>
+                </div>
             </div>
         </form>
     </div>

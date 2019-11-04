@@ -82,5 +82,10 @@ router.get('/solutions/retail', function (req, res, next) {
   res.render('solutions/retail', config)
 })
 
+router.post('/contact', function(req, res) {
+  console.log(req)
+  res.send("post successfully")
+})
+
 
 module.exports = router;

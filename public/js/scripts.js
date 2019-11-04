@@ -754,15 +754,21 @@ function up() {
                     event.preventDefault();
                     event.stopPropagation();
                 } else {
+                    var wp_ajax = {
+                        ajaxurl: location.origin+'/'+'contact'
+                    }
                     event.preventDefault();
-                    const formData = new FormData(form);
-                    formData.append('action', 'my_about');
-                    formData.append('nonce', wp_ajax.nonce);
+
+                    var formArr = $(form).serializeArray()
+                    var params = {}
+                    for(var itr of formArr) {
+                        params = {...params, [itr.name]: itr['value']}
+                    }
+
                     $.ajax({
                         type: "POST",
-                        processData: false,
-                        contentType: false,
-                        data: formData,
+                        contentType: false,                    
+                        data: params,
                         url: wp_ajax.ajaxurl,
                         dataType: "json",
                         success: function (data) {
