@@ -2,13 +2,13 @@ module.exports = {
     SmartContractsForBusinesses: [
         {
             title: '卫生保健',
-            description: '智能合约可以用来记录个人的医疗信息，医院之间的数据可由个人授权共享。也可以用于其它方面的管理包括对药品生产的监督、合法性、测试的结果等供应的管理',
+            description: '智能合约可以用来记录个人的医疗信息，医院之间的数据可由个人授权共享。也可以用于其它方面的管理包括对药品生产的监督、合法性、测试的结果等供应的管理等',
             imgSrc: '/images/Services/SmartContracts/SC1.png',
             imgSrcSet: '/images/Services/SmartContracts/SC1@2x.png',
             moreLink: '/solutions/healthcare'
         }, {
             title: '物流运输',
-            description: '智能合约能够使物流运输企业以粒度方式跟踪从商家到客户的过程，简化了跟踪过程，并在整个供应链中提供了实时查询。',
+            description: '智能合约能够使物流运输企业以粒度方式跟踪产品从制造商到商店的流程，简化了跟踪过程，并提供了整个供应链的实时可见性。',
             imgSrc: '/images/Services/SmartContracts/SC2.png',
             imgSrcSet: '/images/Services/SmartContracts/SC2@2x.png',
             moreLink: '/solutions/logistics'
@@ -26,7 +26,7 @@ module.exports = {
             moreLink: '/solutions/automotive'
         }, {
             title: '保险',
-            description: '智能合约可以自动处理保单。他们可以根据合约中存储的索赔信息执行准确判断并计算出详细的支出金额自动赔付。',
+            description: '智能合约可以自动处理保单。他们可以根据合约中存储的索赔信息执行准确判断并计算出详细的支付金额自动进行赔付。',
             imgSrc: '/images/Services/SmartContracts/SC5.png',
             imgSrcSet: '/images/Services/SmartContracts/SC5@2x.png',
             moreLink: '/solutions/insurance'
