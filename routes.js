@@ -17,6 +17,10 @@ router.get('/services', function (req, res, next) {
   res.render('services/index', gloabl)
 })
 
+router.get('/services/graphene-bitshares', function(req, res, next) {
+  res.render('services/graphene-bitshares', gloabl)
+})
+
 router.get('/services/blockchain-development', function (req, res, next) {
   res.render('services/blockchain-development', { ...gloabl, ...blockchainDevelopment })
 })
