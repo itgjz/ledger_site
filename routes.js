@@ -43,6 +43,10 @@ router.get('/services/smart-contract', function (req, res, next) {
 
 
 // Solutions
+router.get('/solutions', function (req, res, next) {
+  res.render('solutions/index', gloabl)
+})
+
 router.get('/solutions/agriculture', function (req, res, next) {
   res.render('solutions/agriculture', gloabl)
 })
