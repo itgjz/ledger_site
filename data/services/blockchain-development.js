@@ -3,31 +3,31 @@ module.exports = {
     techPoint: [
         {
             title: 'Python',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/python.svg'
+            imgSrc: '/images/Uploads/python.svg'
         }, {
             title: 'C++',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/c-1.svg'
+            imgSrc: '/images/Uploads/c-1.svg'
         }, {
             title: 'C#',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/c.svg'
+            imgSrc: '/images/Uploads/c.svg'
         }, {
             title: 'Unity',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/unity.svg'
+            imgSrc: '/images/Uploads/unity.svg'
         }, {
             title: 'PostgreSQL',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/postgresql.svg'
+            imgSrc: '/images/Uploads/postgresql.svg'
         }, {
             title: 'React.js',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/reactjs.svg'
+            imgSrc: '/images/Uploads/reactjs.svg'
         }, {
             title: 'Node.js',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/nodejs.svg'
+            imgSrc: '/images/Uploads/nodejs.svg'
         }, {
             title: 'Go',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/go.svg',
+            imgSrc: '/images/Uploads/go.svg',
         }, {
             title: 'Solidity',
-            imgSrc: 'https://openledger.info/wp-content/uploads/2018/08/solidity.svg'
+            imgSrc: '/images/Uploads/solidity.svg'
         }
     ]
 }
