@@ -75,7 +75,9 @@
                                 <div class="text">
                                     <p>
                                         <p><%= business.description %>
+                                            <% if(business.moreLink !== '#'){ %>
                                             <a class="teal-link" href="<%= business.moreLink %>">了解更多</a>
+                                            <% } %>
                                         </p>
                                     </p>
                                 </div>

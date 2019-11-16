@@ -17,19 +17,19 @@ module.exports = {
             description: '智能合约可以自动化不动产行业中的交易（例如租赁，购买和出售）的管理操作，并且减轻了文字工作带来的负担和人员的成本还保证了交易的公平。',
             imgSrc: '/images/Services/SmartContracts/SC3.png',
             imgSrcSet: '/images/Services/SmartContracts/SC3@2x.png',
-            moreLink: '/solutions/real-estate'
+            moreLink: '#'
         }, {
             title: '汽车',
             description: '在汽车行业中，智能合约可用于记录并追踪车辆每个零部件的生产流程，基于区块链技术可以保证这些信息都是真实的。',
             imgSrc: '/images/Services/SmartContracts/SC4.png',
             imgSrcSet: '/images/Services/SmartContracts/SC4@2x.png',
-            moreLink: '/solutions/automotive'
+            moreLink: '#'
         }, {
             title: '保险',
             description: '智能合约可以自动处理保单，根据合约中存储的索赔信息执行准确的判断并计算出详细的支付金额自动的进行赔付。',
             imgSrc: '/images/Services/SmartContracts/SC5.png',
             imgSrcSet: '/images/Services/SmartContracts/SC5@2x.png',
-            moreLink: '/solutions/insurance'
+            moreLink: '#'
         }, {
             title: '金融',
             description: '金融机构一般使用Ethereum(以太坊)的智能合约，利用区块链技术来改善数据的质量，加强对投资者权益的保护并增强金融市场的功能。',
