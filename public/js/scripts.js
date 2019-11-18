@@ -755,30 +755,24 @@ function up() {
                     event.stopPropagation();
                 } else {
                     var wp_ajax = {
-                        ajaxurl: location.origin+'/'+'contact'
+                        ajaxurl: location.origin + '/' + 'contact'
                     }
                     event.preventDefault();
 
+                    let d = {}
                     var formArr = $(form).serializeArray()
-                    var params = {}
-                    for(var itr of formArr) {
-                        params = {...params, [itr.name]: itr['value']}
-                    }
+                    $.each(formArr, function () {
+                        d[this.name] = this.value;
+                    });
 
                     $.ajax({
                         type: "POST",
-                        contentType: false,                    
-                        data: params,
+                        data: d,
                         url: wp_ajax.ajaxurl,
                         dataType: "json",
                         success: function (data) {
                             if (!data['error']) {
-                                $('.error-captcha').removeClass('error-capt').text('');
-                                form.reset();
-                                form.classList.remove('was-validated');
-                                location.href = `${data['link']}?from=${data['shortlink']}`;
-                            } else {
-                                $('.error-captcha').addClass('error-capt').text(data['message']['captcha']);
+                                alert('您的信息已发送成功！')
                             }
                         }
                     });

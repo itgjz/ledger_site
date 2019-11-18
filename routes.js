@@ -1,5 +1,9 @@
 var express = require('express');
 var router = express.Router();
+
+//task
+var task = require('./controllers/taskController');
+
 // gloabl
 var gloabl = require('./config/gloabl.config')
 
@@ -17,7 +21,7 @@ router.get('/services', function (req, res, next) {
   res.render('services/index', gloabl)
 })
 
-router.get('/services/graphene-bitshares', function(req, res, next) {
+router.get('/services/graphene-bitshares', function (req, res, next) {
   res.render('services/graphene-bitshares', gloabl)
 })
 
@@ -95,10 +99,41 @@ router.get('/solutions/retail', function (req, res, next) {
   res.render('solutions/retail', gloabl)
 })
 
-router.post('/contact', function (req, res) {
-  console.log(req)
-  res.send("post successfully")
-})
+// task
+/*task list*/
+router.get('/task/list', task.list);
+/*task one*/
+router.get('/task/one', task.getOne);
+
+/*task mod*/
+router.post('/task/mod/self', task.update);
+/*admin mod*/
+router.post('/task/mod/admin', task.updateAdmin);
+
+/*task add*/
+router.post('/task/add', task.add);
+
+
+// router.post('/contact', function (req, res) {
+//   const result = req.body;
+
+//   var data = 'hello world\n';
+
+
+//   fs.appendFile('./info.txt', data, 'utf8', function (err) {
+//     if (err) {
+//       console.log(err);
+//     }
+//   });
+
+
+//   let ret = {
+//     message: {
+//       captcha: 777888
+//     }
+//   }
+//   res.json(ret)
+// })
 
 
 module.exports = router;
