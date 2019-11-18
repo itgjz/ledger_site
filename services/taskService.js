@@ -11,16 +11,16 @@ exports.getAllTasksQuery = (query, cb) => {
         pageNum = query.pageNum,
         pageSize = query.pageSize || 10;
 
-    var statement = "SELECT  tasks.id as task_id,tasks.name as task_name,DATE_FORMAT(start_date,'%Y-%m-%d') as start_date,\
-DATE_FORMAT(end_date,'%Y-%m-%d') as end_date,DATE_FORMAT(update_date,'%Y-%m-%d %l:%i:%s') as update_date,\
-DATE_FORMAT(expect_date,'%Y-%m-%d') as expect_date,complete_day,url,status,task_categories.name as task_categories_name,\
-users.name as user_name,users.photo as user_photo FROM tasks,users,task_categories where tasks.user_id = users.id and tasks.task_category_id = task_categories.id";
-    if (keyword) statement += " and tasks.name like " + "'%" + keyword + "%'";
-    if (userId) statement += " and user_id = " + userId;
-    statement += " ORDER BY status,update_date DESC limit " + ((pageNum - 1) * pageSize) + ", " + pageSize;
-    sequelize.query(statement).then((data) => {
-        cb(data);
-    });
+//     var statement = "SELECT  tasks.id as task_id,tasks.name as task_name,DATE_FORMAT(start_date,'%Y-%m-%d') as start_date,\
+// DATE_FORMAT(end_date,'%Y-%m-%d') as end_date,DATE_FORMAT(update_date,'%Y-%m-%d %l:%i:%s') as update_date,\
+// DATE_FORMAT(expect_date,'%Y-%m-%d') as expect_date,complete_day,url,status,task_categories.name as task_categories_name,\
+// users.name as user_name,users.photo as user_photo FROM tasks,users,task_categories where tasks.user_id = users.id and tasks.task_category_id = task_categories.id";
+//     if (keyword) statement += " and tasks.name like " + "'%" + keyword + "%'";
+//     if (userId) statement += " and user_id = " + userId;
+//     statement += " ORDER BY status,update_date DESC limit " + ((pageNum - 1) * pageSize) + ", " + pageSize;
+//     sequelize.query(statement).then((data) => {
+//         cb(data);
+//     });
 };
 
 exports.getTotalCount = (query, cb) => {
@@ -28,12 +28,12 @@ exports.getTotalCount = (query, cb) => {
         keyword = query.keyword,
         pageNum = query.pageNum,
         pageSize = query.pageSize || 0;
-    if (keyword) statement += " and tasks.name like " + "'%" + keyword + "%'";
-    if (userId) statement += " and user_id = " + userId;
-    var statement = "SELECT count(*) as totalCount FROM tasks,users,task_categories where tasks.user_id = users.id and tasks.task_category_id = task_categories.id";
-    sequelize.query(statement).then((rows) => {
-        cb(rows);
-    });
+    // if (keyword) statement += " and tasks.name like " + "'%" + keyword + "%'";
+    // if (userId) statement += " and user_id = " + userId;
+    // var statement = "SELECT count(*) as totalCount FROM tasks,users,task_categories where tasks.user_id = users.id and tasks.task_category_id = task_categories.id";
+    // sequelize.query(statement).then((rows) => {
+    //     cb(rows);
+    // });
 };
 
 exports.getOneTasksQuery = (id, cb) => {

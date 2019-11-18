@@ -3,6 +3,7 @@ var router = express.Router();
 
 //task
 var task = require('./controllers/taskController');
+var contact = require('./controllers/contactController');
 
 // gloabl
 var gloabl = require('./config/gloabl.config')
@@ -112,6 +113,13 @@ router.post('/task/mod/admin', task.updateAdmin);
 
 /*task add*/
 router.post('/task/add', task.add);
+
+
+// contact
+router.get('/contact/list', contact.list)
+
+// create
+router.post('/contact/create', contact.create)
 
 
 // router.post('/contact', function (req, res) {
