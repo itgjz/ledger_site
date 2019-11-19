@@ -755,7 +755,7 @@ function up() {
                     event.stopPropagation();
                 } else {
                     var wp_ajax = {
-                        ajaxurl: location.origin + '/' + 'contact'
+                        ajaxurl: location.origin + '/' + 'contact/create'
                     }
                     event.preventDefault();
 

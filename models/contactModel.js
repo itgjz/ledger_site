@@ -18,17 +18,17 @@ var Contact = sequelize.define('contact', {
         comment: "邮箱"
     },
     company: {
-        type: Sequelize.SMALLINT(60),
+        type: Sequelize.STRING(200),
         allowNull: false,
         comment: "公司"
     },
     tel: {
-        type: Sequelize.SMALLINT(11),
+        type: Sequelize.STRING(200),
         allowNull: true,
         comment: "电话号码"
     },
     question: {
-        type: Sequelize.TEXT,
+        type: Sequelize.STRING(200),
         allowNull: true,
         comment: "问题"
     }
