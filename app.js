@@ -4,7 +4,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var router = require('./routes.js');
+
+var pages = require('./routers/pages')
+var apis = require('./api')
 var app = express();
 
 // view engine setup
@@ -36,6 +38,10 @@ app.use(cookieParser());
 
 // 静态资源
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/', router);
+app.use('/', pages);
+
+for (let itr in apis) {
+    app.use(apis[itr])
+}
 
 module.exports = app;

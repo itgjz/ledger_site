@@ -26,3 +26,14 @@ exports.create = async (req, res, next) => {
         data: params,
     })
 }
+
+exports.deleteById = async (req, res, next) => {
+    let params = req.body
+
+    ContactModel.delContactById(params)
+
+    res.json({
+        status: 'success',
+        data: params,
+    })
+}

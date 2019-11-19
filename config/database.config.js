@@ -11,7 +11,7 @@ var config = {
 		password: '123456',
 		database: 'zhehan'
 	},
-	force: true, // true 删除数据表并重新创建, false 只创建没有的表
+	force: false, // true 删除数据表并重新创建, false 只创建没有的表
 }
 
 module.exports = config
