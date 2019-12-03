@@ -35,6 +35,11 @@ var httpsServer = https.createServer(httpsOption, app)
 /**
  * Listen on provided port, on all network interfaces.
  */
+var toHttps = require('express-to-https').basic;
+if (clusterUtility.API.clusterType == "release") {
+  app.use(toHttps);
+}
+
 server.listen(port);
 httpsServer.listen(443)
 server.on('error', onError);

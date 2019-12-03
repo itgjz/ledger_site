@@ -171,6 +171,11 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+express-to-https@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/express-to-https/-/express-to-https-1.0.3.tgz#c1fa12cfa9faa36e827f0262d80236d38935e6f4"
+  integrity sha1-wfoSz6n6o26CfwJi2AI204k15vQ=
+
 express@~4.16.1:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"
