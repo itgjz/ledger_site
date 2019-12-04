@@ -3,7 +3,7 @@
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+// var logger = require('morgan');
 
 var pages = require('./routers/pages')
 var apis = require('./api')
@@ -29,7 +29,7 @@ app.all("*", function (req, res, next) {
 
 })
 
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded(
     { extended: false }

@@ -16,7 +16,6 @@ app.set('port', port);
 /**
  * Create HTTP AND HTTPS server.
  */
-
 let http = require("http");
 let https = require("https");
 

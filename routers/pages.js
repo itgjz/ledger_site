@@ -96,4 +96,6 @@ router.get('/solutions/retail', function (req, res, next) {
     res.render('solutions/retail', gloabl)
 })
 
+
+
 module.exports = router;
